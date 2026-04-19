@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
-    "postinstall": "npx @puppeteer/browsers install chrome@stable"
+    "postinstall": "npx puppeteer browsers install"
   },
   "keywords": [],
   "author": "",
